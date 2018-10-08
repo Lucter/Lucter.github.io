@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+/*font-family: 'Raleway', sans-serif;*/
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: orange;
+}
+
+.active{
+    background-color: orange;
+    text-decoration: none;
+    color: #ddd;
+    
+}
+
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 46px;
+    line-height: 1.2em;
+    letter-spacing: 0em;
+    text-decoration: none;
+    text-transform: none;
+    color: #333;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-image: url('/Users/iiroritola/Desktop/HTML_CRASH_COURSE/CSS_HTML_PRACTISE/Correct answers/tic-tac-toe.png');
+    background-repeat: repeat;
+    background-color: #f2f2f2;
+    
+    line-height: 2,5em;
+    font-weight: 900;
+    padding-bottom: 70px;
+}
+
+.our-content{
+    max-width: 600px;
+    margin: auto;
+    line-height: 2,5em;
+    padding-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+.kuva {
+    border-radius: 5px;
+  
+    margin: auto; 
+    vertical-align: top;
+    display: block;
+   
+}
+
+
+
+button:hover {
+    background-color: orange;
+    color: #ddd;
+    
+}
