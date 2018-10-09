@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 /*font-family: 'Raleway', sans-serif;*/
 
-
+/* Navigation */
 
 ul {
     list-style-type: none;
@@ -26,6 +26,9 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: orange;
+    text-decoration: none;
+    color: #f2f2f2;
+
 }
 
 .active{
@@ -34,7 +37,7 @@ li a:hover {
     color: #ddd;
     
 }
-
+/*Profile */
 
 h1{
     font-family: 'Raleway', sans-serif;
@@ -70,21 +73,72 @@ body{
     padding-top: 20px;
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
+    text-align: center;
 }
 
 .kuva {
     border-radius: 5px;
-  
+
     margin: auto; 
-    vertical-align: top;
+    
     display: block;
    
 }
+/* Project site (remember to put the href into a link not path to local file! */
+.projects-body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    padding-top: 25px;
+    line-height: 2,5em;
+    font-weight: 900;
+}
 
 
 
-button:hover {
-    background-color: orange;
-    color: #ddd;
+.Yoxi {
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    float: right;
+
+}
+
+.projects-body2 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    padding-top: 300px;
+    line-height: 2,5em;
+    font-weight: 900;
     
 }
+.pageimage {
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    float: left;
+    padding-bottom: 70px;
+}
+
+/* CV page*/
+
+.btn {
+    background-color:orange;
+    border: none;
+    color: white;
+    margin: auto;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color:rgb(218, 108, 19);
+  }
+
+
